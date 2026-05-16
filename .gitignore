@@ -1,0 +1,103 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# ========================
+# Jupyter Notebooks
+# ========================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# ========================
+# Virtual Environments
+# ========================
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ========================
+# Data Files (Large CSVs)
+# ========================
+*.csv
+!Datasets/*.csv
+
+# ========================
+# Large/Sensitive Datasets
+# ========================
+Preprocessing/flats.csv
+Preprocessing/flats_cleaned.csv
+Preprocessing/houses.csv
+Preprocessing/house_cleaned.csv
+Preprocessing/gurgaon_properties.csv
+Preprocessing/gurgaon_properties_cleaned_v1.csv
+
+# ========================
+# HTML Reports (Auto-generated)
+# ========================
+*.html
+*.pdf
+
+# ========================
+# IDE / Editor
+# ========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.spyderproject.cfg
+.spyproject/
+.ropeproject/
+
+# ========================
+# OS Files
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+
+# ========================
+# Logs & Temp
+# ========================
+*.log
+*.tmp
+*.bak
+*.orig
+
+# ========================
+# Model Artifacts (if large)
+# ========================
+*.pkl
+*.joblib
+*.h5
+*.model
+
+# ========================
+# Miscellaneous
+# ========================
+Preprocessing/a
